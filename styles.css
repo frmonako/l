@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.card {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+}
+.profile-pic-container {
+    position: relative;
+}
+.profile-pic {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+.placeholder-pic {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    width: 17.5px;
+    height: 17.5px;
+    background-color: transparent;
+    border: none;
+}
+.card-text {
+    font-size: 1.5em;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.additional-images {
+    display: inline-flex;
+    gap: 4px;
+    margin-left: 5px;
+    align-items: center; /* Vertically center the images */
+}
+.tiny-image {
+    width: 17px;
+    height: 17px;
+}
+.tiny-image[src="quest.png"] {
+    width: 19px; /* Made bigger */
+    height: 19px; /* Made bigger */
+}
+.status-text {
+    font-size: 1em;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: grey;
+    font-weight: 400;
+}
